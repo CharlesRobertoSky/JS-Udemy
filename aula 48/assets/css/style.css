@@ -1,0 +1,33 @@
+:root {
+  --color-primary: rgb(42, 84, 221);
+  --color-primary-dark: rgb(25, 49, 129);
+  --color-primary-ligh: rgb(201, 213, 252);
+  --fontcolor-primary: rgb(155, 179, 255);
+  --fontcolor-secundary: rgb(106, 140, 255);
+  --fontcolor-terceary: rgb(78, 119, 255);
+}
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+body{
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-primary);
+}
+.container {
+  display: block;
+  text-align: center;
+  min-width: 80vw;
+  background-color: var(--color-primary-ligh);
+  font-size: 12pt;
+  margin-top: 20px;
+  border-radius: 10px;
+  height: 100px;
+  padding: 30px;
+}

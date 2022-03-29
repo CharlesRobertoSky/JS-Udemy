@@ -1,0 +1,126 @@
+:root {
+  --color-primary: rgb(42, 84, 221);
+  --color-primary-dark: rgb(25, 49, 129);
+  --color-primary-ligh: rgb(201, 213, 252);
+  --fontcolor-primary: rgb(155, 179, 255);
+  --fontcolor-secundary: rgb(106, 140, 255);
+  --fontcolor-terceary: rgb(78, 119, 255);
+}
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: var(--color-primary);
+  display: grid;
+}
+
+header {
+  background-color: var(--color-primary-dark);
+  padding: 10px;
+  position: relative;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.342);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.507);
+  text-align: center;
+  color: var(--fontcolor-primary);
+}
+
+header h1 {
+  margin: 10px;
+}
+
+/* nav>ul {
+  display: flex;
+}
+
+nav li {
+  background-color: var(--color-primary);
+  padding: 5px 15px 5px 15px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+li a {
+  color: #000;
+}
+
+nav li:hover {
+  background-color: var(--fontcolor-primary);
+  transition: 0.2s;
+
+} */
+
+#main {
+  background-color: var(--color-primary-ligh);
+  margin: auto;
+  padding: 40px;
+  max-width: 100vh;
+  text-align: justify;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.192);
+}
+
+
+#main h2 {
+  text-align: center;
+  margin: 20px;
+}
+h3 {
+  text-indent: 10px;
+}
+#main p {
+  margin: 10px;
+}
+#lists{
+  display: flex;
+}
+.listu{
+  padding: 0px 20px;
+}
+
+.button {
+  display: block;
+  margin: auto;
+  width: 95%;
+  height: 30px;
+}
+
+.button1 {
+  font-size: 16pt;
+  font-weight: bold;
+  background-color: var(--color-primary-dark);
+  color: var(--fontcolor-primary);
+  border: 0px;
+  margin-top: 30px;
+  cursor: pointer;
+
+}
+
+.button1:hover {
+  
+  background-color: var(--color-primary);
+  transition: 2ms;
+}
+
+.button2 {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+#res{
+  background-color: aqua;
+  margin: 10px;
+  padding: 5px 0px;
+  font-size: 12pt;
+}
+#res h4 {
+  font-weight: normal;
+  
+}
