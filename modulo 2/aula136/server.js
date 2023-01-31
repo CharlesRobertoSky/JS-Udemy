@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const routes = require('./router');
 const path = require('path');
-
+const meuMiddleware = require('./src/middlewares/middleware')
 
 
 app.use(express.urlencoded({extended:true}));
