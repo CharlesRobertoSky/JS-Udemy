@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../src/assets/css/style.css" />
+    <title>Modelo</title>
+  </head>
+
+  <body>
+    <section class="container">
+      <h1>Gerador de senhas</h1>
+      <div class="res"></div>
+      <div class="items">
+        <p>
+          Quantidade de caracteres
+          <input type="number" class="char-quant" value="6" min="1" max="50" />
+        </p>
+        <p>Adicionar numeros<input type="checkbox" class="check-box cb1" /></p>
+        <p>Letras maiúsculas<input type="checkbox" class="check-box cb2" /></p>
+        <p>
+          Letras Minúsculas
+          <input type="checkbox" class="check-box cb3" />
+        </p>
+        <p>Letras símbolos <input type="checkbox" class="check-box cb4" /></p>
+        <input type="button" id="submit" value="Gerar senha" />
+        <div class="err"></div>
+      </div>
+    </section>
+
+    <script src="../public/assets/js/bundle.js"></script>
+  </body>
+</html>
